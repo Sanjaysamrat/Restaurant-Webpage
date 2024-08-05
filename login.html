@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor's Kitchen</title>
+    <link rel="icon" type="image/x-icon" href="Images/BK_favicon.ico">
+    <link rel="stylesheet" type="text/css" href="CSS/Login.css">
+    <link rel="stylesheet" type="text/css" href="CSS/nav.css">
+    <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+    <script src="Javascript/Login.js"></script>
+</head>
+<body>
+    <div id="nav-div1">
+        <div id="nav-div2">
+            <img src="Images/BK_logo.jpg" alt="Company logo" id="logo">
+        </div>
+        <div id="nav-div3">
+            <a href="index.html" style="text-decoration: none;" title="Home">
+                <b style="font-size: 20px; color: white;">Home</b>
+            </a>
+            <a href="Menu.html" style="text-decoration: none;" title="Menu">
+                <b class="nav-content">Menu</b>
+            </a>
+            <a href="locations.html" style="text-decoration: none;" title="Locations">
+                <b class="nav-content">Locations</b>
+            </a>
+            <a href="Contact.html" style="text-decoration: none;" title="Contact Us">
+                <b class="nav-content">Contact Us</b>
+            </a>
+            <b class="nav-content">Login/Register</b>
+        </div>
+    </div>
+    <div id="container">
+        <div id="login-box">
+            <h2>Login</h2>
+            <form onsubmit="myFormSubmit()">
+                <div class="input-box">
+                    <label>Username<b>*</b></label>
+                    <input type="text" placeholder="Please Enter Username" id="login-username"/>
+                </div>
+                <div class="input-box">
+                    <label>Password<b>*</b></label>
+                    <input type="password" placeholder="Please Enter Password" id="login-password"/>
+                </div>
+                <div id="show-passcheck">
+                    <input type="checkbox" id="pass-checkbox" onchange="showPassword()"/>
+                    <label for="pass-checkbox" id="lbl-showpassword">Show Password</label>
+                </div>
+                <div id="input-submitbtn">
+                    <input type="submit" value="Submit" height="20px"/>
+                </div>
+            </form>
+            <div id="link-box">
+                <a href="register.html" id="link-newuser">New User? Register Here.</a>
+                <a href="forgotPassword.html" id="link-forgotpass">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+    <div id="footer-div">
+        <p class="foot-main"><b>Contact-Us:</b> bachelorskitchenindia@gmail.com &nbsp;&nbsp;&nbsp;<b>Tel:</b> 080-54621</p>
+        <p class="foot-main">@2024 by Samrat Website Builders</p>
+     </div>
+</body>
+</html>

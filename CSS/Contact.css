@@ -1,0 +1,44 @@
+#back-div
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+#image1
+{
+   width: 100%;
+   height: 100%;
+}
+
+#head-back
+{
+    text-align: center;
+    color: black;
+}
+
+#div4
+{
+    text-align: center;
+    width: 100%;
+}
+
+#div5
+{
+     width:100%;
+     background-color: #F0F0F0;
+}
+
+#contact-head
+{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}
+
+#table1
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

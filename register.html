@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor's Kitchen</title>
+    <link rel="icon" type="image/x-icon" href="Images/BK_favicon.ico">
+    <link rel="stylesheet" type="text/css" href="CSS/nav.css">
+    <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Register.css">
+    <script src="Javascript/Register.js"></script>
+</head>
+<body>
+    <div id="nav-div1">
+        <div id="nav-div2">
+            <img src="Images/BK_logo.jpg" alt="Company logo" id="logo">
+        </div>
+        <div id="nav-div3">
+            <a href="index.html" style="text-decoration: none;" title="Home">
+                <b style="font-size: 20px; color: white;">Home</b>
+            </a>
+            <a href="Menu.html" style="text-decoration: none;" title="Menu">
+                <b class="nav-content">Menu</b>
+            </a>
+            <a href="locations.html" style="text-decoration: none;" title="Locations">
+                <b class="nav-content">Locations</b>
+            </a>
+            <a href="Contact.html" style="text-decoration: none;" title="Contact Us">
+                <b class="nav-content">Contact Us</b>
+            </a>
+            <a href="Login.html" style="text-decoration: none;" title="Login/Register">
+                <b class="nav-content">Login/Register</b>
+            </a>
+        </div>
+    </div>
+    <div id="container">
+        <div id="Register-box">
+            <h2>Register Here</h2>
+            <form onsubmit="myFormRegister()">
+                <div class="input-box">
+                    <label>First Name:<b>*</b></label>
+                    <input type="text" placeholder="ex: sanjay" id="firstname"/>
+                </div>
+                <div class="input-box">
+                    <label>Last Name:<b>*</b></label>
+                    <input type="text" placeholder="ex: samrat" id="lastname"/>
+                </div>
+                <div class="input-box">
+                    <label>Email:<b>*</b></label>
+                    <input type="email" placeholder="ex: sanjay@google.com" id="email"/>
+                </div>
+                <div class="input-box">
+                    <label>Mobile Number:<b>*</b></label>
+                    <input type="text" placeholder="ex: 912345678" id="mobnum"/>
+                </div>
+                <div id="input-regbtn">
+                    <input type="submit" value="Register" height="20px"/>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer-div">
+        <p class="foot-main"><b>Contact-Us:</b> bachelorskitchenindia@gmail.com &nbsp;&nbsp;&nbsp;<b>Tel:</b> 080-54621</p>
+        <p class="foot-main">@2024 by Samrat Website Builders</p>
+    </div>
+</body>
+</html>
