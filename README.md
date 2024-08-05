@@ -42,7 +42,7 @@ Edit these files as needed. For the login page, you can integrate authentication
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
+This project is licensed under the GPL-3.0 License - see the [LICENSE](https://github.com/Sanjaysamrat/Restaurant-Webpage/blob/main/LICENSE) file for details.
 
 
 
